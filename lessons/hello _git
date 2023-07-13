@@ -1,0 +1,4 @@
+def hello_git():
+    for _ in range(10):
+        print('hello, git!')
+        
