@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: red
+}
+#test{
+    font-style: italic;
+}
+p{
+  color:blue;  
+}
+.vip{
+    color: violet;
+}
+.super_vip{
+    color: green
+}
+ul.a li{
+    color: darkcyan;
+}
+ul.b li{
+    color:brown;
+}
+div#aaa.bbb.ccc ul#qqq.www.eee li.hhh.yyy span#yyy.uuu em.ooo{
+    
+}
