@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Прошу прощения, не смог нормально сделать картинку и кнопки. Был вынужден 
+на четыре дня уезжать, вообще не занимался, поэтому сейчас отсылаю как есть. -->
+<body>
+    <h1 style="text-align: center;"><a name="home">HOW-TO: Программа на Python, Часть 1</a></h1>
+        <ul>
+            <li><a href="index1.html"><i>Программа на Python - часть 1</a></i></li>
+            <li><a href="index2.html"><i>Программа на Python - часть 2</a></i></li>
+            <li><a href="index3.html"><i>Программа на Python - часть 3</a></i></li>
+        </ul>
+        <p style="text-align: right;">
+            <img alt="логотип python" title="Pyhton" src="C:\Users\user\IT-academy_2_stupen\Sergey_Maksimov\lessons\lesson1\kartinki\msg488130115-7144.jpg" alt="img" width="200" height="200" class="rightpic">
+        </p>
+        <h1 id="up">Содержание</h1>
+        <h2>HOW-TO: Программа на Python, Часть 1</h2>
+        <ul>
+            <li><a href="#perv">Наша первая программа</a></li>
+            <li><a href="#primer">Пример цикла for</a></li>
+        </ul>
+        <p>Из множества существующих языков программирования Python — один из самых лёгких
+            в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился.
+            Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+            обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+            создание консольных приложений, а в следующей — программирование графических
+            интерфейсов (GUI). Давайте создадим простую программу прямо сейчас.
+            </p>
+        <h1 id="perv">Наша первая программа</h1>
+        <a href="#up">К содержанию</a>
+        <p>Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает
+            каждая строка и пойдём дальше.</p>
+        <p>Введите эти 4 строки:</p>
+        <pre>#!/usr/bin/env python
+print 'Hello. I am a python program.'
+name = raw_input("What is your name?")
+print "Hello there, " + name + "!"</pre>
+        <p>Это всё. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить
+             его в папке <b>python_examples</b> в домашнем каталоге. Этот пример показывает, как просто написать
+            программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+            этого введите в терминале</p>
+        <p><i><b>chmod +x hello.py</b></i></p>
+        <p>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+        <p>greg@earth:~/python_examples$ ./hello.py<br>
+           Hello. I am a python program.<br>
+           What is your name? Ferd Burphel<br>
+           Hello there, Ferd Burphel!<br>
+           greg@earth:~/python_examples$</p>
+        <p>Вот и всё.</p>
+        <h1 id="primer">Пример цикла For</h1>
+        <p>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+редактор и наберите следующую программу:</p>
+        <pre>#!/usr/bin/env python
+for cntr in range(0,10):
+    print cntr</pre>
+        <p>Не забудьте поставить символ табуляции перед строкой «print cntr». Это важно. В
+            Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки
+            как в других языках программирования, а отступы.</p>
+    <p id="domoy" style="text-align: center;">
+        <a href="#home"><img alt="кнопка домой" title="home" src="C:\Users\user\IT-academy_2_stupen\Sergey_Maksimov\lessons\lesson1\kartinki\msg488130115-7113.jpg" alt="img" width="40" height="40"></a>
+    </p>
+    <p id="vpered" style="text-align: right;">
+        <a href="index2.html"><img alt="кнопка вперёд" title="vpered" src="C:\Users\user\IT-academy_2_stupen\Sergey_Maksimov\lessons\lesson1\kartinki\msg488130115-7148.jpg" alt="img" width="35" height="35"></a>
+    </p>
+    <p id="nazad" style="text-align: left;">
+        <a href=""><img alt="кнопка назад" title="nazad" src="C:\Users\user\IT-academy_2_stupen\Sergey_Maksimov\lessons\lesson1\kartinki\msg488130115-7146.jpg" alt="img" width="35" height="35"></a>
+    </p>
+    
+</body>
+</html>
