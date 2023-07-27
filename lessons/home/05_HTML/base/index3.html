@@ -15,8 +15,19 @@
     <form action="http://fe.it-academy.by/TestForm.php" method="post" target="_blank">
         <fieldset>
             <legend>Авторизуйтесь</legend>
-            <input type="text">*<br>
-            <input type="text">*
+            <input type="text">* Логин<br>
+            <input type="text">* Пароль<br>
+
+            <label>  
+                <input type="checkbox" name="name">Оставаться в системе<br>
+            </label>
+                
+
+            <input type="submit" value="Войти">
+            <p style="font-style: italic;">* - обязательное поле</p>
         </fieldset>
-        
+
+        <!-- <label for=“pass”> Пароль: </label>
+        <input type="password" id="pass" name="password"> -->
+     
     </form>
