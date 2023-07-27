@@ -10,7 +10,19 @@
     </style>
 </head>
 <body>
-    
+    <!-- не совсем разобрался со скрытым полем -->
     <h2>Опрос (голосование):</h2>
     <form action="http://fe.it-academy.by/TestForm.php" method="post" target="_blank">
+        <fieldset>
+            <legend>Как вам?</legend>
+            <label name="date_voite", value="2013.12.31">
+                <input type="radio" name="radio_group">ничего<br>
+                <input type="radio" name="radio_group">неплохо<br>
+                <input type="radio" name="radio_group">хорошо<br>
+                <input type="radio" name="radio_group">супер
+            </label><br>
+            <input type="submit">
+        </fieldset>
     </form>
+</body>
+</html>
