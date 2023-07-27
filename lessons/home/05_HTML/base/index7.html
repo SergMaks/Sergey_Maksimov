@@ -10,12 +10,15 @@
     </style>
 </head>
 <body>
-    
+    <!-- Не разобрался, как настроить англ. язык ("выберите файл", "файл не выбран"). -->
     <h2>Загрузка файла на сервер:</h2>
-    <form action="http://fe.it-academy.by/TestForm.php" method="post" target="_blank">
+    <form action="http://fe.it-academy.by/TestForm.php" method="post" target="_blank" enctype="multipart/form-data">
         <fieldset>
             <legend>Upload</legend>
-            
+            <input type="file">
+            <p>Срок хранения (года):</p>
+            <input type="text">
+            <input type="submit" value="Загрузить">
         </fieldset>
     </form>
 
