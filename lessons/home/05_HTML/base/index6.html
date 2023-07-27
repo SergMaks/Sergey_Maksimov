@@ -13,4 +13,37 @@
     
     <h2>Выпадающий и мультисписки:</h2>
     <form action="http://fe.it-academy.by/TestForm.php" method="post" target="_blank">
+        <fieldset>
+            <legend>Города РБ</legend>
+
+            <select name="list1">
+                <option value="val1">Брест</option>
+                <option value="val2">Минск</option>
+                <option value="val3">Могилёв</option>
+                <option value="val4">Гродно</option>
+                <option value="val5">Витебск</option>
+                <option value="val6">Гомель</option>
+            </select>
+
+            <select name="list" size="7">
+                <optgroup label="Города РБ">
+                    <option value="1">Минск</option>
+                    <option value="2">Брест</option>
+                    <option value="3">Могилёв</option>
+                    <option value="4">Гродно</option>
+                    <option value="5">Витебск</option>
+                    <option value="6">Гомель</option>
+                </optgroup>
+                <optgroup label="Города России">
+                    <option value="6">Москва</option>
+                    <option value="7">Санкт-Петербург</option>
+                    <option value="8">Екатеринбург</option>
+                    <option value="9">Рязань</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Ok">
+        </fieldset>
     </form>
+
+</body>
+</html>
