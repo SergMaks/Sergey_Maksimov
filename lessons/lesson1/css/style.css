@@ -1,25 +1,28 @@
 h1{
-    text-align: center;
+    text-align: center; 
     color: red
 }
 #test{
     font-style: italic;
+    color: green;
 }
 p{
-  color:blue;  
+    color:blue;
 }
+
 .vip{
-    color: violet;
+    color: cyan;
 }
-.super_vip{
-    color: green
+.super__vip{
+    color: lawngreen;
 }
 ul.a li{
-    color: darkcyan;
+    color: indigo;
 }
 ul.b li{
-    color:brown;
+    color: rgb(208, 243, 11);
 }
+
 div#aaa.bbb.ccc ul#qqq.www.eee li.hhh.yyy span#yyy.uuu em.ooo{
     
 }
