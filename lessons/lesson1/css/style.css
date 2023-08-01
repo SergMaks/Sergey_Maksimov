@@ -1,10 +1,20 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100000px;
+}
 h1{
     text-align: center; 
-    color: red
+    color: red;
+    line-height: 1;
+    letter-spacing: normal;
+    text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px, 1px 37px 8px rgba(206,89,55,0.53);
 }
 #test{
     font-style: italic;
     color: green;
+    font-weight: 900;
+    opacity: 0.5;
+    text-decoration: none;
 }
 p{
     color:blue;
@@ -12,6 +22,7 @@ p{
 
 .vip{
     color: cyan;
+    font-family: 'Ma Shan Zheng', cursive;
 }
 .super__vip{
     color: lawngreen;
@@ -23,6 +34,9 @@ ul.b li{
     color: rgb(208, 243, 11);
 }
 
-div#aaa.bbb.ccc ul#qqq.www.eee li.hhh.yyy span#yyy.uuu em.ooo{
+
     
+
+button{
+    color: red
 }
