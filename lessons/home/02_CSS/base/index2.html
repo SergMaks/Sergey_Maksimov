@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <style>
-        ul{
+        ul.a{
             font-size: 24px;
-            
-
+            list-style-type: upper-roman;}
+        ul.b{
+            list-style-type: lower-roman;
+        }
+        pre{
+            width: 400px;
+            height: 70px;
+            background-color: black;
+            color: green;
+            overflow: auto;
         }
     </style>
 </head>
 <body>
-    <ul>
-
+    <ul class="a">
+        <li>Контейнер с кодом</li>
+            <ul class="b">
+                <li>Цвет фона: чёрный</li>
+                <li>Цвет текста: зелёный</li>
+                <li>Ширина: 400рх</li>
+                <li>Максимальная высота контейнера: 4-е строки</li>
+                <li>Переполнение: автоматическое</li>
+            </ul>
+        <li>Список</li>
+            <ul class="b">
+                <li>Ширина: 350рх</li>
+                <li>Тип списка: римские цифры</li>
+                <li>Тип вложенного списка: римские цифры нижний регистр</li>
+            </ul>
+            
     </ul>
+
+    <pre>#!/usr/bin/env python
+print 'Hello. I am a python program.'
+name = raw_input("What is your name?")
+print "Hello there, " + name + "!"
+    </pre>
+
 </body>
 </html>
