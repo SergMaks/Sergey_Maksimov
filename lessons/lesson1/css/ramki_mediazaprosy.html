@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 10000px;
+        }
+        .header, .footer{
+            height: 50px;
+            background-color: blue;
+        }
+        .content-wrap{
+            background-color: yellow;
+        }
+        .menu{
+            background: red;
+            height: 100px;
+            width: 200px;
+            float: left;
+        }
+        .banner{
+            background-color: green;
+            float: right;
+            height: 100px;
+            width: 200px;
+        }
+
+        @media all and (max-width: 1175px){
+            .header{
+                background-color: red;
+            }
+            .content-wrap{
+                background-color: aqua;
+            }
+            .menu{
+                float: right;
+                background-color: grey;
+            }
+            .banner{
+                float: left;
+                height: 200px;
+                background-color: mediumslateblue;
+            }
+        }
+
+        @media all and (max-width: 921px){
+            .header{
+                background-color: yellowgreen;
+            }
+            .content-wrap{
+                background-color: red;
+            }
+            .menu{
+                float: right;
+                background-color: khaki;
+            }
+            .banner{
+                float: left;
+                height: 200px;
+                background-color: mediumslateblue;
+            }
+        }
+
+        @media all and (max-width: 921px){
+            .header{
+                background-color: yellowgreen;
+            }
+            .content-wrap{
+                background-color: red;
+            }
+            .menu{
+                width: 100%;
+                float: none;
+                background-color: khaki;
+            }
+            .banner{
+                width: 100%;
+                float: none;
+                height: 200px;
+                background-color: mediumslateblue;
+            }
+        }
+        
+    </style>
+
+</head>
+<body>
+    
+    <table border="1" width="60">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <div>lsdfjsdkjfd dkfjl;ds 4395 dslkf</div>
+
+    <hr>
+
+    <div class="header">HEADER</div>
+    <div class="content-wrap">
+        <div class="menu">MENU</div>
+        <div class="banner">BANNER</div>
+        <div class="content">CONTENT</div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="footer">FOOTER</div>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div.monday{
+            width: 100px;
+            display: none;
+        }
+        div.tuesday{
+            width: 100px;
+            display: none;
+        }
+        div.wednesday{
+            width: 100px;
+            display: none;
+        }
+        div.thursday{
+            width: 100px;
+            display: none;
+        }
+        div.friday{
+            width: 100px;
+            display: none;
+        }
+        div.saturday{
+            width: 100px;
+            display: none;
+        }
+        div.monday > div{
+            width: 100px;
+            border-style: solid;
+            cursor: pointer;
+        }
+        div.day_week > div:hover div.monday{
+            display: block;
+            position: absolute;
+            left: -2.5%; 
+            top: 105%; 
+        }
+        div.tuesday > div{
+            width: 100px;
+            border-style: solid;
+            cursor: pointer;
+        }
+        div.day_week > div:hover div.tuesday{
+            display: block;
+            position: absolute;
+            left: -4%; 
+            top: 105%; 
+        }
+        div.wednesday > div{
+            width: 100px;
+            border-style: solid;
+            cursor: pointer;
+        }
+        div.day_week > div:hover div.wednesday{
+            display: block;
+            position: absolute;
+            left: -4%; 
+            top: 105%; 
+        }
+        div.thursday > div{
+            width: 100px;
+            border-style: solid;
+            cursor: pointer;
+        }
+        div.day_week > div:hover div.thursday{
+            display: block;
+            position: absolute;
+            left: -4%; 
+            top: 105%; 
+        }
+        div.friday > div{
+            width: 100px;
+            border-style: solid;
+            cursor: pointer;
+        }
+        div.day_week > div:hover div.friday{
+            display: block;
+            position: absolute;
+            left: -4%; 
+            top: 105%; 
+        }
+        div.saturday > div{
+            width: 100px;
+            border-style: solid;
+            cursor: pointer;
+        }
+        div.day_week > div:hover div.saturday{
+            display: block;
+            position: absolute;
+            left: -4%; 
+            top: 105%; 
+        }
+        .day{
+            width: 100px;
+            border-style: solid;
+            float: left;
+            position: relative;
+        }
+        .day:hover{
+            background: grey;
+        }
+
+        @media all and (max-width: 227px){
+            .day{
+                display: block;
+            }
+            
+            div.day:hover div.a{
+                width: 100px;
+                display: block;
+                position: absolute;
+                margin-left: 104px;
+                margin-top: -22px;
+            }
+            div.day:hover div.b{
+                width: 100px;
+                display: block;
+                position: absolute;
+                margin-left: 104px;
+                margin-top: -2px;
+            }
+            div.day:hover div.c{
+                width: 100px;
+                display: block;
+                position: absolute;
+                margin-left: 104px;
+                margin-top: 20px;
+            }
+            div.monday > div{
+                display: none;
+            }
+            div.tuesday > div{
+                display: none;
+            }
+            div.wednesday > div{
+                display: none;
+            }
+            div.thursday > div{
+                display: none;
+            }
+            div.friday > div{
+                display: none;
+            }
+            div.saturday > div{
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="day_week">
+        <div class="day">
+            Понедельник
+            <div class="monday">
+                <div class="a">Завтрак</div>
+                <div class="b">Обед</div>
+                <div class="c">Ужин</div>
+            </div>
+        </div>
+        <div class="day">
+            Вторник
+            <div class="tuesday">
+                <div class="a">Завтрак</div>
+                <div class="b">Обед</div>
+                <div class="c">Ужин</div>
+            </div>
+        </div>
+        <div class="day">
+            Среда
+            <div class="wednesday">
+                <div class="a">Завтрак</div>
+                <div class="b">Обед</div>
+                <div class="c">Ужин</div>
+            </div>
+        </div>
+        <div class="day">
+            Четверг
+            <div class="thursday">
+                <div class="a">Завтрак</div>
+                <div class="b">Обед</div>
+                <div class="c">Ужин</div>
+            </div>
+        </div>
+        <div class="day">
+            Пятница
+            <div class="friday">
+                <div class="a">Завтрак</div>
+                <div class="b">Обед</div>
+                <div class="c">Ужин</div>
+            </div>
+        </div>
+        <div class="day">
+            Суббота
+            <div class="saturday">
+                <div class="a">Завтрак</div>
+                <div class="b">Обед</div>
+                <div class="c">Ужин</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
