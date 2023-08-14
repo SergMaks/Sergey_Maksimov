@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .a{
+            width: 600px;
+            height: 100px;
+            border: 1px solid #000203;
+            border-radius: 0px 15px 0px 15px;
+        }
+        .word{
+            display: none;
+            position: relative;
+        }
+        .w:hover+div{
+            display: block;
+            left: 150px;
+            top: -20px;
+        }
+        .pdf{
+            display: none;
+            position: relative;
+        }
+        .p:hover+div{
+            display: block;
+            left: 120px;
+            top: -20px;
+        }
+        .arhiv{
+            display: none;
+            position: relative;
+        }
+        .ar:hover+div{
+            display: block;
+            left: 60px;
+            top: -20px;
+        }
+        .ворд{
+            position: relative;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Форматы файлов.</h1>
+
+    <div class="a">.DOC или .doc (от англ. <img src="../../../lesson1/kartinki/perehod.jpeg" width="10px" height="10px"><a href="https://en.wikipedia.org/wiki/Document">document)</a> - расширение имени файла, используемое для файлов, представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для обозначения простых текстовых файлов без формирования, однако позже стало использоваться для двоичных форматов с разметкой.
+        <div><a href="https://en.wikipedia.org/wiki/Document">Документ MS Word</a><img src="../../../lesson1/kartinki/word.jpeg" width="10px" height="10px"></div>
+    </div>
+    <div class="a">Portable Document Format (<img src="../../../lesson1/kartinki/perehod.jpeg" width="10px" height="10px"><a href="https://ru.wikipedia.org/wiki/Portable_Document_Format">PDF)</a> - межплатформенный формат электронных документов, разработанный фирмой Adobe Systems с использованием ряда возможностей языка Postscript.
+        <div><a href="https://ru.wikipedia.org/wiki/Portable_Document_Format">Документ PDF<img src="../../../lesson1/kartinki/pdf.jpeg" width="10px" height="10px"></a></div>
+    </div>
+    <div class="a">ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате обычно имеет расширение <img src="../../../lesson1/kartinki/perehod.jpeg" width="10px" height="10px"><a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">.zip</a> и хранит в сажфтом или несжатом виде один или несколько файлов, которые можно из него извлечь путём распаковки с помощью специальной программы. 
+        <div><a href="https://en.wikipedia.org/wiki/ZIP_(file_format)">Архив<img src="../../../lesson1/kartinki/arhiv.jpeg" width="10px" height="10px"></a></div>
+    </div>
+
+    <h2>Это список файлов</h2>
+
+    <!-- Вот тут не сумел избавиться от смещения вниз при наведении на Word и PDF. Буду благодарен, если объясните, как это нужно было реализовать.-->
+
+    <div>
+        <img src="../../../lesson1/kartinki/document.jpeg" width="10px" height="10px"><a href="https://en.wikipedia.org/wiki/Document" class="w">Документ MS Word</a>
+        <div class="word"><img src="../../../lesson1/kartinki/word.jpeg" width="20px" height="20px">
+            </div>
+    </div>
+
+    <div>
+        <img src="../../../lesson1/kartinki/document.jpeg" width="10px" height="10px"><a href="https://ru.wikipedia.org/wiki/Portable_Document_Format" class="p">Документ PDF</a>
+        <div class="pdf"><img src="../../../lesson1/kartinki/pdf.jpeg" width="20px" height="20px">
+            </div>
+    </div>
+
+    <div>
+        <img src="../../../lesson1/kartinki/document.jpeg" width="10px" height="10px"><a href="https://en.wikipedia.org/wiki/ZIP_(file_format)" class="ar">Архив</a>
+        <div class="arhiv"><img src="../../../lesson1/kartinki/arhiv.jpeg" width="20px" height="20px">
+            </div>
+    </div>  
+
+</body>
+</html>
